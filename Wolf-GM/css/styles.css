@@ -2,8 +2,12 @@
     background-color: #999999;
 }
 
+.anh-text {
+    margin-bottom: 40px;
+}
+
 body {
-    background-color:#666666;
+    background-image: url("https://images.alphacoders.com/815/815034.jpg");
 }
 
 .bod {

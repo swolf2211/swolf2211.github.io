@@ -1,13 +1,13 @@
 #anhaenger {
-    background-color: grey;
+    background-color: #ffd966;
 }
 
 body {
-    background-color: rgb(190, 190, 30);
+    background-color:white;
 }
 
 .bod {
-    width: 70%;
+    width: 80%;
     margin: auto;
     border: solid 2px;
 }
@@ -20,21 +20,32 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     size: 1rem;
     line-height: 1.5;
-    margin-top: 10px;
+    margin: 10px 0 0 20px;
 }
 
 h2 {
-    margin: 10px 0px 0px 10px;
+    margin: 20px 0 0 20px;
 }
 
 .img-anhaenger {
     width: 70%;
-    margin: 20px auto 0px auto;
+    margin: 20px;
+
 }
 
 .img-mathias-wolf {
     float: right;
     margin: 20px 20px 20px 0px;
+}
+
+.navbar {
+    width: 95%;
+    margin: auto;
+}
+
+.nav-link {
+    margin-right: 20px;
+
 }
 
 #service {

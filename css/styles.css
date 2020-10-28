@@ -42,12 +42,12 @@ h1 {
 
 h1.name {
     float: left;
-    margin: 3.75rem 1.25rem 0 1.25rem;
+    margin: 3.75rem 1.25rem 0 2.2rem;
 }
 
 h1.name2 {
     font-size: 2rem;
-    margin: 1.25rem 0 0 1.25rem;
+    margin: 1.25rem 0 0 2.2rem;
 }
 
 
@@ -85,7 +85,7 @@ iframe {
 }
 
 .img-mathias-wolf {
-    margin: 1.875rem 1.875rem 1.25rem 0;
+    margin: 1.875rem 2.2rem 1.25rem 0;
 }
 
 #impressum {
@@ -98,7 +98,7 @@ iframe {
 }
 
 #kontakt-top {
-    margin: 1.875rem 1.875rem 0 0;
+    margin: 1.875rem 2.2rem 0 0;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -131,6 +131,7 @@ p {
     background-color: white;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    margin-left: 0.5rem
 }
 
 .slide-image {

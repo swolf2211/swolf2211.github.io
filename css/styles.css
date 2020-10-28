@@ -140,8 +140,42 @@ p {
     right: 20%;
 }
 
-/* Tablet Settings */
-@media screen and (max-width: 900px) {
+
+/* Mobile Settings */
+@media screen and (max-width: 500px) {
+
+    .bod {
+        width: 100%;
+        margin: auto;
+        border: solid 2px;
+        background-color: blue;
+    }
+
+    h1.name2 {
+        font-size: 1.5rem;
+        margin: 1.25rem 1.25rem;
+    }
+
+    .h3-wide{
+        margin: 0 0 1.875rem 2.5rem;
+    }
+
+    .map {
+        margin: 0.625rem 0 1.25rem 0;
+    }
+
+    .button-left {
+        left: 0;
+    }
+    
+    .button-right{
+        right: 0;
+    }
+    
+  }
+
+  /* Tablet Settings */
+@media screen and (max-width: 1024px) {
 
     h1.name {
         float: left;
@@ -177,36 +211,3 @@ p {
     }
     
     }
-
-/* Mobile Settings */
-@media screen and (max-width: 568px) {
-
-    .bod {
-        width: 100%;
-        margin: auto;
-        border: solid 2px;
-        background-color: blue;
-    }
-
-    h1.name2 {
-        font-size: 1.5rem;
-        margin: 1.25rem 1.25rem;
-    }
-
-    .h3-wide{
-        margin: 0 0 1.875rem 2.5rem;
-    }
-
-    .map {
-        margin: 0.625rem 0 1.25rem 0;
-    }
-
-    .button-left {
-        left: 0;
-    }
-    
-    .button-right{
-        right: 0;
-    }
-    
-  }

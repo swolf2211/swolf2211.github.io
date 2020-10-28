@@ -46,14 +46,14 @@ h1.name {
 }
 
 h1.name2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin: 1.25rem 0 0 1.25rem;
 }
 
 
 
 h2.a {
-    margin: 0 0 1.875rem 2rem;
+    margin: 0 0 1.875rem 1.875rem;
     padding-top: 1.25rem;
 }
 
@@ -137,6 +137,7 @@ p {
     border: solid 2px;
 }
 
+/* Pfeile zum weiterklicken der slides positionieren
 .button-left {
     left: 20%;
 }
@@ -144,7 +145,7 @@ p {
 .button-right{
     right: 20%;
 }
-
+*/
 
 /* Mobile Settings */
 @media screen and (max-width: 500px) {

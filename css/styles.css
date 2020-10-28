@@ -181,6 +181,13 @@ p {
 /* Mobile Settings */
 @media screen and (max-width: 568px) {
 
+    .bod {
+        width: 100%;
+        margin: auto;
+        border: solid 2px;
+        background-color: white;
+    }
+
     h1.name2 {
         font-size: 1.5rem;
         margin: 1.25rem 1.25rem;

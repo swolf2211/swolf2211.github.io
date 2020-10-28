@@ -6,24 +6,21 @@
     margin-left: 1.5rem;
 }
 
-.anhaengerbeschreibung-wide {
-    margin-left: 21rem;
-}
-
 #anhaengervermietung {
     background-color: #bbbfca;
 }
 
 body {
-    background-image: url("https://images.alphacoders.com/815/815034.jpg");
+    background: url("https://images.alphacoders.com/815/815034.jpg") repeat-y;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .bod {
-    width: 100%;
+    width: 80%;
     margin: auto;
     border: solid 2px;
     background-color: white;
@@ -45,8 +42,16 @@ h1.name {
 }
 
 h1.name2 {
+    font-size: 1.8rem;
     margin: 1.25rem 0 0 1.25rem;
 }
+
+@media screen and (max-width: 568px) {
+    h1.name2 {
+        font-size: 1.5rem;
+        margin: 1.25rem 1.25rem;
+    }
+  }
 
 h2.a {
     margin: 0 0 1.875rem 1.875rem;
@@ -66,6 +71,18 @@ h2.b {
     margin: 0 0 1.875rem 31.875rem;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    display: block;
+    max-width: 100%;
+}
+
+
 .img-anhaenger {
     margin: 1.25rem;
     border: solid 1px;
@@ -82,6 +99,7 @@ h2.b {
 
 #kontakt{
     background-color: white;
+    padding-bottom: 1.875rem;
 }
 
 #kontakt-top {
@@ -96,6 +114,12 @@ h2.b {
 .map {
     margin: 0.625rem 0 1.25rem 1.875rem;
 }
+
+@media screen and (max-width: 568px) {
+    .map {
+        margin: 0.625rem 0 1.25rem 0;
+    }
+  }
 
 .navbar-top {
     width: 95%;
@@ -120,3 +144,13 @@ p {
 .slide-image {
     border: solid 2px;
 }
+
+.description3 {
+    margin-left: 21rem;
+  }
+
+@media screen and (max-width: 568px) {
+    .description3 {
+        margin-left: 1.5rem;
+    }
+  }

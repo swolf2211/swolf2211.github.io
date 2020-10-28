@@ -2,8 +2,8 @@
     margin: 1.875rem 0;
 }
 
-.anhaengerbeschreibung {
-    margin-left: 1.5rem;
+.description {
+    margin-left: 4.3rem;
 }
 
 #anhaengervermietung {
@@ -46,12 +46,7 @@ h1.name2 {
     margin: 1.25rem 0 0 1.25rem;
 }
 
-@media screen and (max-width: 568px) {
-    h1.name2 {
-        font-size: 1.5rem;
-        margin: 1.25rem 1.25rem;
-    }
-  }
+
 
 h2.a {
     margin: 0 0 1.875rem 1.875rem;
@@ -65,10 +60,6 @@ h2.b {
 
 .h3 {
     margin: 0 0 1.875rem 2.5rem;
-}
-
-.h3-wide{
-    margin: 0 0 1.875rem 31.875rem;
 }
 
 img {
@@ -109,17 +100,13 @@ iframe {
 
 .logo {
     margin: 1.25rem 0 0 0;
+    width:123px !important; 
+    height:87px !important;
 }
 
 .map {
     margin: 0.625rem 0 1.25rem 1.875rem;
 }
-
-@media screen and (max-width: 568px) {
-    .map {
-        margin: 0.625rem 0 1.25rem 0;
-    }
-  }
 
 .navbar-top {
     width: 95%;
@@ -145,12 +132,74 @@ p {
     border: solid 2px;
 }
 
-.description3 {
-    margin-left: 21rem;
-  }
+.button-left {
+    left: 20%;
+}
 
-@media screen and (max-width: 568px) {
-    .description3 {
-        margin-left: 1.5rem;
+.button-right{
+    right: 20%;
+}
+
+/* Tablet Settings */
+@media screen and (max-width: 900px) {
+
+    h1.name {
+        float: left;
+        margin: 3.75rem 1rem 0 1.25rem;
+        font-size: 1.8rem;
     }
+    
+    h1.name2 {
+        font-size: 1.5rem;
+        margin: 1.25rem 1.25rem;
+    }
+    
+    .h3-wide{
+        margin: 0 0 1.875rem 2.5rem;
+    }
+
+    .logo {
+        margin: 1.5rem 0 0 0;
+        width:111px !important; 
+        height:69px !important;
+    }
+    
+    .map {
+        margin: 0.625rem 0 1.25rem 0;
+    }
+    
+    .button-left {
+        left: 0;
+    }
+    
+    .button-right{
+        right: 0;
+    }
+    
+    }
+
+/* Mobile Settings */
+@media screen and (max-width: 568px) {
+
+    h1.name2 {
+        font-size: 1.5rem;
+        margin: 1.25rem 1.25rem;
+    }
+
+    .h3-wide{
+        margin: 0 0 1.875rem 2.5rem;
+    }
+
+    .map {
+        margin: 0.625rem 0 1.25rem 0;
+    }
+
+    .button-left {
+        left: 0;
+    }
+    
+    .button-right{
+        right: 0;
+    }
+    
   }

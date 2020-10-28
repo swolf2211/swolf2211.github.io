@@ -7,7 +7,11 @@
 }
 
 #anhaengervermietung {
-    background-color: #bbbfca;
+    /* background-color: #8d93ab;*/
+    background-color: #394867;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 body {
@@ -49,7 +53,7 @@ h1.name2 {
 
 
 h2.a {
-    margin: 0 0 1.875rem 1.875rem;
+    margin: 0 0 1.875rem 2rem;
     padding-top: 1.25rem;
 }
 
@@ -125,7 +129,8 @@ p {
 
 #service {
     background-color: white;
-    padding-bottom: 1.875rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .slide-image {
@@ -148,7 +153,6 @@ p {
         width: 100%;
         margin: auto;
         border: solid 2px;
-        background-color: blue;
     }
 
     h1.name2 {

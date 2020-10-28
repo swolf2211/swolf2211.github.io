@@ -1,5 +1,17 @@
-#anhaenger {
-    background-color: #999999;
+.anhaenger {
+    margin: 30px 0;
+}
+
+.anhaengerbeschreibung {
+    margin-left: 10px;
+}
+
+.anhaengerbeschreibung-wide {
+    margin-left: 300px;
+}
+
+#anhaengervermietung {
+    background-color: #bbbfca;
 }
 
 .anh-text {
@@ -8,12 +20,17 @@
 
 body {
     background-image: url("https://images.alphacoders.com/815/815034.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bod {
     width: 80%;
     margin: auto;
     border: solid 2px;
+    background-color: white;
 }
 
 #title {
@@ -24,22 +41,47 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     size: 1rem;
     line-height: 1.5;
-    margin: 30px 0 0 20px;
 }
 
-h2 {
-    margin: 20px 0 0 30px;
+h1.name {
+    float: left;
+    margin: 60px 20px 0 20px;
 }
 
+h1.name2 {
+    margin: 20px 0 0 20px;
+}
+
+h2.a {
+    margin: 0 0 30px 30px;
+    padding-top: 20px;
+}
+
+h2.b {
+    margin: 0 0 0 10px;
+    padding-top: 20px;
+}
+
+.h3 {
+    margin: 0 0 30px 40px;
+}
+
+.h3-wide{
+    margin: 0 0 30px 330px;
+}
 
 .img-anhaenger {
-    width: 70%;
     margin: 20px;
+    border: solid 1px;
 
 }
 
 .img-mathias-wolf {
     margin: 30px 30px 20px 0;
+}
+
+#impressum {
+    background-color: white;
 }
 
 #kontakt{
@@ -51,8 +93,12 @@ h2 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.logo {
+    margin: 20px 0 0 0;
+}
+
 .map {
-    margin: 20px;
+    margin: 10px 0 20px 30px;
 }
 
 .navbar-top {
@@ -66,11 +112,15 @@ h2 {
 }
 
 p {
-    margin: 20px 10px 0 30px;
+    margin: 20px 10px 0 40px;
     font-family: 'Ubuntu', sans-serif;
 }
 
 #service {
     background-color: white;
-    height: 350px;
+    padding-bottom: 30px;
+}
+
+.slide-image {
+    border: solid 2px;
 }

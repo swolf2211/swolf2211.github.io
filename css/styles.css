@@ -194,12 +194,9 @@ p {
         margin: 0 0 1.875rem 1.5rem;
     }
 
-    .heading-right {
-        margin: 0 2rem 0 0;
-    }
-
     .img-mathias-wolf {
         margin: 1.875rem 2rem 1.25rem 0;
+        padding-right: 50px;
     }
 
     .kontakt {

@@ -2,9 +2,6 @@
     margin: 1.875rem 0;
 }
 
-.description {
-    margin-left: 4.3rem;
-}
 
 #anhaengervermietung {
     /* background-color: #8d93ab;*/
@@ -30,8 +27,8 @@ body {
     background-color: white;
 }
 
-#title {
-    background-color: white;
+.description {
+    margin: 1.25rem 0.625rem 0 4.3rem;
 }
 
 h1 {
@@ -92,6 +89,10 @@ iframe {
     background-color: white;
 }
 
+.kontakt {
+    margin: 1.25rem 0.625rem 0 2.5rem;
+}
+
 #kontakt{
     background-color: white;
     padding-bottom: 1.875rem;
@@ -102,6 +103,10 @@ iframe {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.leistungen {
+    margin: 1.25rem 0.625rem 0 2.5rem;
+}
+
 .logo {
     margin: 1.25rem 0 0 0;
     width:123px !important; 
@@ -109,7 +114,7 @@ iframe {
 }
 
 .map {
-    margin: 0.625rem 0 1.25rem 1.875rem;
+    margin: 1.25rem 0.625rem 0 2.5rem;
 }
 
 .navbar-top {
@@ -119,12 +124,14 @@ iframe {
 
 .nav-link {
     margin-right: 1.25rem;
-
 }
 
 p {
-    margin: 1.25rem 0.625rem 0 2.5rem;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.service {
+    margin: 1.25rem 0.625rem 0 2.5rem;
 }
 
 #service {
@@ -136,6 +143,10 @@ p {
 
 .slide-image {
     border: solid 2px;
+}
+
+#title {
+    background-color: white;
 }
 
 /* Pfeile zum weiterklicken der slides positionieren
@@ -157,14 +168,26 @@ p {
         border: solid 2px;
     }
 
+    .button-left {
+        left: 0;
+    }
+    
+    .button-right{
+        right: 0;
+    }
+
     .description {
-        margin: 0;
-        padding: 0;
+        margin: 1.25rem 0.625rem 0 1rem;
     }
 
     h1.name2 {
         font-size: 1.5rem;
         margin: 1.25rem 1.25rem;
+    }
+
+    h2.a {
+        margin: 0 0 1.875rem 0.5rem;
+        padding-top: 1.25rem;
     }
 
     h2.b {
@@ -173,19 +196,23 @@ p {
     }
 
     .h3 {
-        margin: 0 0 1.875rem 2rem;
+        margin: 0 0 1.875rem 1.5rem;
+    }
+
+    .kontakt {
+        margin: 1.25rem 0.625rem 0 1.5rem;
+    }
+
+    .leistungen {
+        margin: 1.25rem 0.625rem 0 1.5rem;
     }
 
     .map {
         margin: 0.625rem 0 1.25rem 0;
     }
 
-    .button-left {
-        left: 0;
-    }
-    
-    .button-right{
-        right: 0;
+    .service {
+        margin: 1.25rem 0.625rem 0 1.5rem;
     }
     
   }

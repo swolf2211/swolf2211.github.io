@@ -78,7 +78,7 @@ iframe {
 }
 
 .img-mathias-wolf {
-    margin: 1.875rem 2.2rem 1.25rem 0;
+    margin: 1.875rem 1.7rem 1.25rem 0;
 }
 
 #impressum {
@@ -95,7 +95,7 @@ iframe {
 }
 
 #kontakt-top {
-    margin: 1.875rem 2.2rem 0 0;
+    margin: 1.875rem 1.7rem 0 0;
 }
 
 .leistungen {
@@ -194,8 +194,12 @@ p {
         margin: 0 0 1.875rem 1.5rem;
     }
 
+    .heading-right {
+        margin: 0 0 0 0;
+    }
+
     .img-mathias-wolf {
-        margin: 1.875rem 0 1.25rem 0;
+        margin: 1.875rem 1rem 1.25rem 0;
     }
 
     .kontakt {
@@ -203,7 +207,7 @@ p {
     }
 
     #kontakt-top {
-        margin: 1.875rem 0 0 0;
+        margin: 1.875rem 1rem 0 0;
     }
 
     .leistungen {
@@ -232,6 +236,10 @@ p {
     h1.name2 {
         font-size: 1.5rem;
         margin: 1.25rem 1.25rem;
+    }
+
+    .img-mathias-wolf {
+        margin: 1.875rem 15px 1.25rem 0;
     }
 
     .logo {

@@ -224,7 +224,7 @@ p {
     
   }
 
-  /* Tablet Settings */
+  /* Tablet Settings */ /*
 @media screen and (max-width: 1024px) {
 
     h1.name {
@@ -260,4 +260,4 @@ p {
         right: 0;
     }
     
-    }
+    } */

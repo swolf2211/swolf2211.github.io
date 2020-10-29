@@ -47,8 +47,6 @@ h1.name2 {
     margin: 1.25rem 0 0 2.2rem;
 }
 
-
-
 h2.a {
     margin: 0 0 1.875rem 1.875rem;
     padding-top: 1.25rem;
@@ -74,11 +72,9 @@ iframe {
     max-width: 100%;
 }
 
-
 .img-anhaenger {
     margin: 1.25rem;
     border: solid 1px;
-
 }
 
 .img-mathias-wolf {
@@ -100,7 +96,6 @@ iframe {
 
 #kontakt-top {
     margin: 1.875rem 2.2rem 0 0;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .leistungen {
@@ -199,8 +194,16 @@ p {
         margin: 0 0 1.875rem 1.5rem;
     }
 
+    .img-mathias-wolf {
+        margin: 1.875rem 1.8rem 1.25rem 0;
+    }
+
     .kontakt {
         margin: 1.25rem 0.625rem 0 1.5rem;
+    }
+
+    #kontakt-top {
+        margin: 1.875rem 1.8rem 0 0;
     }
 
     .leistungen {

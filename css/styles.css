@@ -17,7 +17,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden;
+    
 }
 
 .bod {
@@ -59,6 +59,10 @@ h2.b {
 
 .h3 {
     margin: 0 0 1.875rem 2.5rem;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 img {
@@ -161,7 +165,6 @@ p {
         width: 100%;
         margin: auto;
         border: solid 2px;
-        overflow-x: hidden;
     }
 
     .button-left {

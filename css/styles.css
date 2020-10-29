@@ -157,13 +157,23 @@ p {
         border: solid 2px;
     }
 
+    .description {
+        margin: 0;
+        padding: 0;
+    }
+
     h1.name2 {
         font-size: 1.5rem;
         margin: 1.25rem 1.25rem;
     }
 
-    .h3-wide{
-        margin: 0 0 1.875rem 2.5rem;
+    h2.b {
+        margin: 0;
+        padding-top: 1.25rem;
+    }
+
+    .h3 {
+        margin: 0 0 1.875rem 2rem;
     }
 
     .map {
@@ -192,10 +202,6 @@ p {
     h1.name2 {
         font-size: 1.5rem;
         margin: 1.25rem 1.25rem;
-    }
-    
-    .h3-wide{
-        margin: 0 0 1.875rem 2.5rem;
     }
 
     .logo {
